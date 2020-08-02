@@ -7,8 +7,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Main7576 {
-    static int di[] = {0,0,-1,1};
-    static int dj[] = {-1,1,0,0};
+    static int[] di = {0,0,-1,1};
+    static int[] dj = {-1,1,0,0};
 
     static int isize, jsize;
     static int[][] map;

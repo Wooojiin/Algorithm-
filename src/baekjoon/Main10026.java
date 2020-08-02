@@ -11,8 +11,8 @@ public class Main10026 {
     static boolean[][] visitRG;
     static int countNormal, countRG;
 
-    static int di[] = {0,0,-1,1};
-    static int dj[] = {-1,1,0,0};
+    static int[] di = {0,0,-1,1};
+    static int[] dj = {-1,1,0,0};
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -48,7 +48,7 @@ public class Main1260 {
             if(arr[now][i] && !visit[i]){
                 visit[i] = true;
                 dfs(i);
-                ;            }
+            }
         }
     }
 
